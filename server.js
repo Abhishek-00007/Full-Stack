@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mime = require('mime-types'); // npm install mime-types if not installed
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Middleware to parse incoming JSON requests
 app.use(bodyParser.json());
